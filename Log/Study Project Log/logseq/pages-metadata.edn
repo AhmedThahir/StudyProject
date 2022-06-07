@@ -1,0 +1,366 @@
+[{:block/name "a",
+  :block/created-at 1650637985110,
+  :block/updated-at 1650637985110}
+ {:block/name "animation",
+  :block/created-at 1650637967530,
+  :block/updated-at 1650637967530}
+ {:block/name "ann",
+  :block/created-at 1650637967505,
+  :block/updated-at 1654326288523}
+ {:block/name "anurag",
+  :block/created-at 1650637967198,
+  :block/updated-at 1650637967198}
+ {:block/name "apr 12th, 2022",
+  :block/created-at 1650637967387,
+  :block/updated-at 1650637967387}
+ {:block/name "apr 16th, 2022",
+  :block/created-at 1650637967438,
+  :block/updated-at 1650637967438}
+ {:block/name "apr 18th, 2022",
+  :block/created-at 1650637967479,
+  :block/updated-at 1650637967479}
+ {:block/name "apr 1st, 2022",
+  :block/created-at 1650637967373,
+  :block/updated-at 1650637967373}
+ {:block/name "apr 22nd, 2022",
+  :block/created-at 1650637966483,
+  :block/updated-at 1650651307996}
+ {:block/name "apr 25th, 2022",
+  :block/created-at 1650864666185,
+  :block/updated-at 1650865617653}
+ {:block/name "apr 26th, 2022",
+  :block/created-at 1652504669102,
+  :block/updated-at 1652504669102}
+ {:block/name "b",
+  :block/created-at 1650637985110,
+  :block/updated-at 1650637985110}
+ {:block/name "between estimation ❌",
+  :block/created-at 1654325462384,
+  :block/updated-at 1654326065330}
+ {:block/name "c",
+  :block/created-at 1650637985110,
+  :block/updated-at 1650637985110}
+ {:block/name "canceled",
+  :block/created-at 1650637966777,
+  :block/updated-at 1650637966777}
+ {:block/name "card",
+  :block/created-at 1650637985109,
+  :block/updated-at 1650637985109}
+ {:block/name "causality",
+  :block/created-at 1650637967543,
+  :block/updated-at 1650637967543}
+ {:block/name "classification",
+  :block/created-at 1650637967506,
+  :block/updated-at 1650637967506}
+ {:block/name "clustering",
+  :block/created-at 1650637967507,
+  :block/updated-at 1650637967507}
+ {:block/name "contents",
+  :block/created-at 1650637985109,
+  :block/updated-at 1650637985109}
+ {:block/name "cross-sectional series",
+  :block/created-at 1650637967566,
+  :block/updated-at 1654328679690}
+ {:block/name "dashboards",
+  :block/created-at 1650637967583,
+  :block/updated-at 1650637967583}
+ {:block/name "data type",
+  :block/created-at 1654326527509,
+  :block/updated-at 1654326527509}
+ {:block/name "decision trees",
+  :block/created-at 1650637967593,
+  :block/updated-at 1654326264701}
+ {:block/name "doing",
+  :block/created-at 1650637985110,
+  :block/updated-at 1650637985110}
+ {:block/name "done",
+  :block/created-at 1650637985110,
+  :block/updated-at 1650637985110}
+ {:block/name "dowhy",
+  :block/created-at 1650637967542,
+  :block/updated-at 1650637967542}
+ {:block/name "excel",
+  :block/created-at 1650637968157,
+  :block/updated-at 1650637968157}
+ {:block/name "explainability methods",
+  :block/created-at 1654182297474,
+  :block/updated-at 1654196481359}
+ {:block/name "favorites",
+  :block/created-at 1650637985109,
+  :block/updated-at 1650637985109}
+ {:block/name "feb 10th, 2022",
+  :block/created-at 1650637966974,
+  :block/updated-at 1650637966974}
+ {:block/name "feb 12th, 2022",
+  :block/created-at 1650637966999,
+  :block/updated-at 1650637966999}
+ {:block/name "feb 13th, 2022",
+  :block/created-at 1650637966994,
+  :block/updated-at 1650637966994}
+ {:block/name "feb 14th, 2022",
+  :block/created-at 1650637967043,
+  :block/updated-at 1650637967043}
+ {:block/name "feb 20th, 2022",
+  :block/created-at 1650637967075,
+  :block/updated-at 1650637967075}
+ {:block/name "feb 21st, 2022",
+  :block/created-at 1650637967120,
+  :block/updated-at 1650637967120}
+ {:block/name "feb 28th, 2022",
+  :block/created-at 1650637967201,
+  :block/updated-at 1650637967201}
+ {:block/name "feb 6th, 2022",
+  :block/created-at 1650637966929,
+  :block/updated-at 1650637966929}
+ {:block/name "feb 7th, 2022",
+  :block/created-at 1650637966940,
+  :block/updated-at 1650637966940}
+ {:block/name "feb 8th, 2022",
+  :block/created-at 1650637966951,
+  :block/updated-at 1650637966951}
+ {:block/name "feb 9th, 2022",
+  :block/created-at 1650637966960,
+  :block/updated-at 1650637966960}
+ {:block/name "first differences estimation ❌",
+  :block/created-at 1654327383420,
+  :block/updated-at 1654327423631}
+ {:block/name "fix",
+  :block/created-at 1650637967300,
+  :block/updated-at 1650637967300}
+ {:block/name "fixed effect estimation",
+  :block/created-at 1654327639941,
+  :block/updated-at 1654328184824}
+ {:block/name "forms",
+  :block/created-at 1653322516585,
+  :block/updated-at 1653322678728}
+ {:block/name "foundations of sports analytics",
+  :block/created-at 1650637966829,
+  :block/updated-at 1650637966829}
+ {:block/name "gini-coefficient",
+  :block/created-at 1650637967418,
+  :block/updated-at 1653657561563}
+ {:block/name "github",
+  :block/created-at 1654620190051,
+  :block/updated-at 1654620527395}
+ {:block/name "google sheets",
+  :block/created-at 1653072428358,
+  :block/updated-at 1653072428358}
+ {:block/name "granger causality",
+  :block/created-at 1650637967691,
+  :block/updated-at 1654326200838}
+ {:block/name "gsheets",
+  :block/created-at 1653072430808,
+  :block/updated-at 1653072430808}
+ {:block/name "hyperplane",
+  :block/created-at 1650637968105,
+  :block/updated-at 1650637968105}
+ {:block/name "idea",
+  :block/created-at 1650637966729,
+  :block/updated-at 1650637966729}
+ {:block/name "in-progress",
+  :block/created-at 1650637985110,
+  :block/updated-at 1650637985110}
+ {:block/name "interactive plots",
+  :block/created-at 1650637967722,
+  :block/updated-at 1650637967722}
+ {:block/name "jan 16th, 2022",
+  :block/created-at 1650637966672,
+  :block/updated-at 1650637966672}
+ {:block/name "jan 17th, 2022",
+  :block/created-at 1650637966732,
+  :block/updated-at 1650637966732}
+ {:block/name "jan 19th, 2022",
+  :block/created-at 1650637966778,
+  :block/updated-at 1650637966778}
+ {:block/name "jan 20th, 2022",
+  :block/created-at 1650637966800,
+  :block/updated-at 1650637966800}
+ {:block/name "jan 25th, 2022",
+  :block/created-at 1650637966830,
+  :block/updated-at 1650637966830}
+ {:block/name "jan 28th, 2022",
+  :block/created-at 1650637966884,
+  :block/updated-at 1650637966884}
+ {:block/name "jan 31st, 2022",
+  :block/created-at 1650637966912,
+  :block/updated-at 1650637966912}
+ {:block/name "judea pearl model",
+  :block/created-at 1650637967728,
+  :block/updated-at 1650637967728}
+ {:block/name "julia",
+  :block/created-at 1650637966773,
+  :block/updated-at 1650637966773}
+ {:block/name "jun 7th, 2022",
+  :block/created-at 1654614245808,
+  :block/updated-at 1654614245808}
+ {:block/name "jupyter notebook",
+  :block/created-at 1654232360508,
+  :block/updated-at 1654233660168}
+ {:block/name "later",
+  :block/created-at 1650637985110,
+  :block/updated-at 1650637985110}
+ {:block/name "logistic regression",
+  :block/created-at 1650637967756,
+  :block/updated-at 1654326259209}
+ {:block/name "longitudinal",
+  :block/created-at 1654329403992,
+  :block/updated-at 1654329403992}
+ {:block/name "mar 15th, 2022",
+  :block/created-at 1650637967264,
+  :block/updated-at 1650637967264}
+ {:block/name "mar 21st, 2022",
+  :block/created-at 1650637967277,
+  :block/updated-at 1650637967277}
+ {:block/name "mar 29th, 2022",
+  :block/created-at 1650637967304,
+  :block/updated-at 1652797863214}
+ {:block/name "mar 30th, 2022",
+  :block/created-at 1650637967344,
+  :block/updated-at 1650637967344}
+ {:block/name "matplotlib",
+  :block/created-at 1652847824042,
+  :block/updated-at 1654376730539}
+ {:block/name "may 19th, 2022",
+  :block/created-at 1652933002311,
+  :block/updated-at 1652933691024}
+ {:block/name "models",
+  :block/created-at 1654326436585,
+  :block/updated-at 1654326482866}
+ {:block/name "network graphs",
+  :block/created-at 1654521424185,
+  :block/updated-at 1654527217888}
+ {:block/name "now",
+  :block/created-at 1650637985110,
+  :block/updated-at 1650637985110}
+ {:block/name "numpy",
+  :block/created-at 1652797697422,
+  :block/updated-at 1654255271239}
+ {:block/name "octave",
+  :block/created-at 1650637967827,
+  :block/updated-at 1650637967827}
+ {:block/name "ols",
+  :block/created-at 1650637967817,
+  :block/updated-at 1650637967817}
+ {:block/name "p-value",
+  :block/created-at 1652934054748,
+  :block/updated-at 1652934088995}
+ {:block/name "pandas",
+  :block/created-at 1650637967839,
+  :block/updated-at 1654375505196}
+ {:block/name "panel data",
+  :block/created-at 1650637967784,
+  :block/updated-at 1654329403996}
+ {:block/name "patternrecognition",
+  :block/created-at 1650637967509,
+  :block/updated-at 1650637967509}
+ {:block/name "pipelines",
+  :block/created-at 1654180608943,
+  :block/updated-at 1654181582675}
+ {:block/name "poisson distribution",
+  :block/created-at 1650637967778,
+  :block/updated-at 1654326246809}
+ {:block/name "pooled ols regression ❌",
+  :block/created-at 1650637967786,
+  :block/updated-at 1654326054348}
+ {:block/name "prediction",
+  :block/created-at 1650637967507,
+  :block/updated-at 1650637967507}
+ {:block/name "programminglanguage",
+  :block/created-at 1650637968015,
+  :block/updated-at 1650637968015}
+ {:block/name "proposal",
+  :block/created-at 1650637967039,
+  :block/updated-at 1654614294528}
+ {:block/name "python",
+  :block/created-at 1650637967928,
+  :block/updated-at 1654375127096}
+ {:block/name "python date formats",
+  :block/created-at 1652799313269,
+  :block/updated-at 1652799530400}
+ {:block/name "r programming language",
+  :block/created-at 1650637967930,
+  :block/updated-at 1650637967930}
+ {:block/name "raja",
+  :block/created-at 1650637966880,
+  :block/updated-at 1650637966880}
+ {:block/name "random effects estimation",
+  :block/created-at 1654328010323,
+  :block/updated-at 1654328170942}
+ {:block/name "random forests",
+  :block/created-at 1650637967780,
+  :block/updated-at 1654326275266}
+ {:block/name "reference paper",
+  :block/created-at 1650637966730,
+  :block/updated-at 1650637966730}
+ {:block/name "regex",
+  :block/created-at 1653136794298,
+  :block/updated-at 1653136828389}
+ {:block/name "regression",
+  :block/created-at 1650637967777,
+  :block/updated-at 1654326234296}
+ {:block/name "reinforcementlearning",
+  :block/created-at 1650637967508,
+  :block/updated-at 1650637967508}
+ {:block/name "rubin causal model",
+  :block/created-at 1650637968092,
+  :block/updated-at 1650637968092}
+ {:block/name "sartaj",
+  :block/created-at 1650637967187,
+  :block/updated-at 1650637967187}
+ {:block/name "scala",
+  :block/created-at 1650637967933,
+  :block/updated-at 1650637967933}
+ {:block/name "sci-kit learn",
+  :block/created-at 1654350947628,
+  :block/updated-at 1654350956454}
+ {:block/name "scikit",
+  :block/created-at 1654350956451,
+  :block/updated-at 1654350956451}
+ {:block/name "sheet",
+  :block/created-at 1650637968157,
+  :block/updated-at 1650637968157}
+ {:block/name "simpson's paradox",
+  :block/created-at 1651120476001,
+  :block/updated-at 1651120476001}
+ {:block/name "spreadsheets ❌",
+  :block/created-at 1650637967934,
+  :block/updated-at 1654232445380}
+ {:block/name "study_project_proposal_1644868220897_0",
+  :block/created-at 1654614245299,
+  :block/updated-at 1654614245299}
+ {:block/name "svm",
+  :block/created-at 1650637967781,
+  :block/updated-at 1654326284794}
+ {:block/name "tabula",
+  :block/created-at 1654375540940,
+  :block/updated-at 1654375682645}
+ {:block/name "text",
+  :block/created-at 1652504693203,
+  :block/updated-at 1652504693203}
+ {:block/name "tfcausalimpact",
+  :block/created-at 1650637967543,
+  :block/updated-at 1650637967543}
+ {:block/name "thahir",
+  :block/created-at 1650637968175,
+  :block/updated-at 1650637968175}
+ {:block/name "time series",
+  :block/created-at 1650637967541,
+  :block/updated-at 1654349066789}
+ {:block/name "todo",
+  :block/created-at 1650637985110,
+  :block/updated-at 1650637985110}
+ {:block/name "visualization",
+  :block/created-at 1652504693203,
+  :block/updated-at 1652504693203}
+ {:block/name "wait",
+  :block/created-at 1650637985110,
+  :block/updated-at 1650637985110}
+ {:block/name "waiting",
+  :block/created-at 1650637985109,
+  :block/updated-at 1650637985109}
+ {:block/name "within model",
+  :block/created-at 1654327657111,
+  :block/updated-at 1654327657111}
+ {:block/name "word cloud",
+  :block/created-at 1652504680531, 
+  :block/updated-at 1652507246540}]

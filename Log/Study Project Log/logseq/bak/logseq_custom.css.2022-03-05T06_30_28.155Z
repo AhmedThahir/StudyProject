@@ -1,0 +1,33 @@
+.cp__sidebar-help-btn
+{
+    display: none;
+}
+
+img, video, iframe
+{
+  height: 25vh;
+}
+
+.ls-block h1 {
+  color: rgb(255, 255, 255);
+}
+
+.ls-block:nth-of-type(n+1) h1 {
+  background: rgb(121, 62, 62);
+}
+
+.ls-block:nth-of-type(n+2) h1 {
+  background: rgb(83, 62, 125);
+}
+
+.ls-block:nth-of-type(n+3) h1 {
+  background: rgb(73, 118, 123);
+}
+
+.ls-block:nth-of-type(n+4) h1 {
+  background: rgb(151, 134, 38);
+}
+
+.ls-block:nth-of-type(n+5) h1 {
+  background: rgb(38, 76, 155);
+}

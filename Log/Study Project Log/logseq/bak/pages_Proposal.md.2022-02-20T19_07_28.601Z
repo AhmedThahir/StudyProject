@@ -1,0 +1,155 @@
+- # Literature Review
+  background-color:: #533e7d
+	- ## Current Methods
+		- ### Attributes
+			- Onfield stats
+				- Goals
+				- Expected Goals
+				- Points
+				- Expected Points
+				- many more
+			- Mathematical
+				- Pythagorean Expectation $\frac{x^2}{x^2 + y^2}$
+				- Pezzali Score
+					- $\frac{ \text{my goal conversion rate} } { \text{opponent's goal conversion rate} }$
+		- ### Models
+			- Regression #Prediction
+				- Gain a relationship between a dependent variable and independent variable(s)
+				- Linear
+					- $f(x) = \theta_0 + \theta_1 x$ (Single Regression)
+					- $f(x) = \theta_0 + \theta_1 x_1 + \dots + \theta_{n-1} x_{n-1}$ (Multiple Regression)
+				- Polynomial Regression
+					- $f(x) = \theta_0 + \theta_1 x + \theta_2 x^2 + \dots + \theta_{n-1} x^{n-1}$
+			- Poisson Distribution #Prediction
+				- Discrete variable in a continuous interval
+				- $f(x) = \dfrac {e^{-\mu} \times \mu^x} {x!}, \mu = \alpha t$
+			- Logistic regression #Classification
+				- $h(x) = g(\theta^TX)$
+				- $g(z) = \frac1{ 1+e^{-z} }$
+					- when $z < 0$
+						- $0 \le g(z) < 0.5$
+					- when $z \ge 0$
+						- $0.5 \le g(z)$
+			- Decision Trees #Classification #Prediction
+				- Each node of the tree has a classifying category
+				- pros
+					- efficient
+					- simplistic
+				- cons
+					- tendancy to overfit
+					- performs poorly if test set differs from training set
+			- Random Forests #Classification #Prediction
+				-
+				- Collection of Decision Trees working together to solve a classification
+				- pros
+					- more accurate
+					- great performance
+					- effective at handling noise
+				- cons
+					- hard to interpret
+					- complexity
+					- long training period
+			- SVM #Classification #Prediction
+				- Supported Vector Machines
+				- Find a [[hyperplane]] that such that the distance between the 2 groups is maximized
+				- pros
+					- great performance
+					- optimization is guuaranteed
+				- cons
+					- training is slow
+					- computationally intensive
+					- ineffective at handling noise, leading to overlapping classes
+			- ANN #Classification #Clustering #Prediction #ReinforcementLearning #PatternRecognition
+				- Artificial Neural Networks
+				- machine learning purely by feeding information, without human interference
+				- 3 layers
+					- input layer
+					- hidden layer(s)
+					- output layer
+				- pros
+					- useful when there is large amount of data
+				- cons
+					- development is hard
+						- lack of interpretability
+						- lack of human control
+					- computationally intensive
+	- ## Programming Languages
+		- Python for general purpose, statistical computing and machine learning
+			- since it is an interpreted language, it is slow for very large-scale projects, but should be fine for me
+			- **Libraries**
+				- Pandas
+				- Sci-Kit Learn
+					- `StandardScaler`
+					- `RandomForestClassifier`
+				- Numpy
+				- Matplotlib
+				- Seaborn
+					- kinda like an addition for numpy
+		- Julia
+			- new language
+			- simplicity of python
+			- performance of C
+		- R
+			- statistical computing
+		- Octave
+			- prototyping for math and algorithms
+		- Scala
+			- similar to python, but based on JVM (Java Virtual Machine)
+			- however, not as well documented and not very popular
+	- ## Tools
+		- Jupyter Notebook
+		- Weka
+	- ## Example Implementation
+		- ![01.pdf](../assets/01_1644423481352_0.pdf)
+		- [01.html](../assets/01_1644423030176_0.html)
+	- ## Gaps
+		- most of these papers talk about prediction, but not much on helping making informed decisions
+		- statistics: i believe that current researches focus more on correlation rather than causation
+			- football example
+				- just because win% has high correlation with no of passes, doesn't mean that we have to increase it to win more
+				- it could just be that winning teams pass more and not the other way around
+					- for eg, if a team is winning by 3 goals, then obviously it will just pass the ball around to waste time
+			- basketball example
+				- just cuz 3 point accuracy for a random basketball player is 30% doesn't mean that a new player should adopt that
+				- what if the reason the accuracy is that way is cuz only the good shooters take those shots
+		- economics: i believe an economics perspective will help a lot
+			- ==opportunity cost== of decision A over B
+			- for example, in market value and the business side, the data that is available online is the absolute data, not the **real data**
+			  real data means in relative terms; for example,
+				- **Nominal income** = monetary income
+				- **Real income** reflects the quantity of goods and services you can buy
+				  $\frac{\text{nominal income}}{\text{average of prices of all goods and services bought}}$
+- # Objective of my Research
+  background-color:: #497d46
+	- choice of sport - football
+		- basketball is a high scoring game, so accuracy of prediction will be greater??
+		- but football > basketball?
+			- global sport
+			- more accessible data
+			- larger scope; basketball is mainly popular cuz of NBA
+	- i could work on causal analysis and econometrics
+		- causal analysis
+			- $E \big [y |\text{do}(x = a) \big]$ instead of $E \big [y |(x = a) \big]$
+		- Economics - Sartaj sir
+		- statistics - maneesha ma'am
+	- test on current data and predict for upcoming world cup
+	- analyze causally what is the most important factors
+- # Methodology
+  background-color:: #978626
+	- Datasets
+		- Existing datasets
+			- the ones provided by uni of michigan on coursera
+		- Web Scraping from sites
+			- stats
+				- [Understat](https://understat.com)
+				- [WhoScored](https://whoscored.com)
+			- finances
+				- [Capology](https://capology.com)
+				- [Transfermarkt](https://transfermarkt.com)
+	- Tools
+		- Programming Language - Python
+		- IDE - Jupyter Notebook
+- Is it okay if I focus more on just learning? rather than publishing?
+  background-color:: #793e3e
+	- because the pressure of coming up with something new **and publishing** it feels overwhelming
+	- I'm not doing this project for marks or grade, i'm doing because I genuinely like this topic

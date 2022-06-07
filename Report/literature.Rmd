@@ -1,0 +1,28 @@
+# Chapter 3: Literature Review
+
+## Current Research
+
+The main reference paper for my research is . It provided a comprehensive explanation of Sports Analytics.
+
+Sports data can be in different forms - qualitative/quantitative or structured/unstructured. This data could include player actions, spatio-temporal data, biographical data, scouting reports, etc. Sports analytics involves collecting and analyzing this data in order to gain insights. @bhatnagarSystematicReviewSports2019
+
+@dixonModellingAssociationFootball1997 predicted the winner of a game, using a Poisson Distribution to predict the goals scored by each team. @maoIdentifyingKeysWin2016 created a model to predict match outcome, using logistic regression. @kampakisUsingTwitterPredict used numerous machine learning algorithms on n-grams (a specific sequence of letters/words) to predict match outcomes. @broichStatisticalAnalysisFirst2014 concluded that that shot efficiency is more important than the number of shots; number of passes and ball contacts are also important factors; the distance covered was not found to be important. @ruiz-ruizAnalysisEntriesPenalty2013 analyzed the 2006 World Cup and found that winning teams enter the opponent’s penalty area more often. @ruiz-ruizAnalysisEntriesPenalty2013 analyzed the 2006 World Cup and found that winning teams hardly allowed opponents enter their penalty area.
+
+@armatasEVALUATIONGOALSSCORED2009 found that there are more second half goals than in the first half; moreover, the probability of scoring increases with time. @DIFFERENCESOFFENSIVEACTIONS found that top teams are more efficient and score more goals from within the penalty area, inferred to be due to tactical superiority; another differentiator between top teams and other teams is the number of key passes (passes that lead to a goal scoring opportunity). @evangelosWinnersLosersTop compared one-sided games with competitive ones; they found that one-sided winners had much better possession %, “one-v-one” duels, number of passes, shots, shots on target, and shooting accuracy; but these were inapplicable close range games. @hughesAnalysisPassingSequences2005 analyzed two different FIFA World Cups and found that were more goals scored from passing sequences that were longer rather than shorter; however, when the number of passes gets too large, more attempts were required to score a goal.
+
+@chazan-pantzalisSportsAnalyticsAlgorithms2020 created a binary classification model to predict how each team of various European Leagues would perform, using numerous parameters such as previous year position, wins, draws, losses, net transfer expenditure, etc. Moreover, it focused on player performance prediction, with a focus on central defenders. Various features such as passing, heading, aggression were obtained from the game *Football Manager*. These were used to predict match rating of players. The best predictors were found to be interceptions, clearances, jumping reach and strength.
+
+Finally, @dobsonPerformanceRevenueProfessional1998 took a different approach. It performed a *Granger causality test* to find that "the influence of lagged revenue on current performance is greater than the influence of lagged performance on current revenue". However, despite this research highlighting some form of causality, trying to improve performance through increasing revenue isn’t feasible, as it is not an easily controllable parameter.
+
+## Gaps
+
+1. Current research mainly focuses on prediction
+2. Over-reliance on correlation
+   
+   Correlation is useful for making predictions, but is insufficient for making effective decisions
+3. Lack of causal inference
+   
+   Decisions without casual understanding may prove to be costly, as they may **not produce** efficient outcomes
+4. Financial values are in absolute terms, rather than relative terms
+   
+   This is not accurate, as $€ 50\rm{M}$ was much more valuable 10 years ago compared to present-day, due to inflation.

@@ -1,0 +1,18 @@
+- made a basic implementation
+- didn't quite work out
+- met [[Sartaj]]
+	- The relationship is 2 way
+		- $O = f(V); V = g(O)$
+		- Granger Causality Test
+	- to use current method
+collapsed:: true
+		- use average of market value and ratings
+		- use regular OLS
+	- to use current dataset
+collapsed:: true
+		- panel regression
+		- the reason is because
+			- the current dataset has 2 dimensions
+				- time (2017, 2018, ...)
+				- space (players)
+			- so we cannot use regular OLS here

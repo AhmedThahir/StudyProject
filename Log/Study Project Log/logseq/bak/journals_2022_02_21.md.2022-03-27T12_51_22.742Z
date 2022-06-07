@@ -1,0 +1,44 @@
+- Present with mindmapper
+- Update
+collapsed:: true
+	- Misc
+		- I understand that you require that I read papers
+		- But for now, I'm doing courses
+		  collapsed:: true
+			- to better understand
+			- Also, this professor is really good
+			- He brings in econometrics approach to solve the problems in current stats
+		- Once, I get the concepts, I will read papers again
+	- Causal vs Statistical
+	- Statistical correlation can be misleading
+		- Russel's Chicken
+		- Simpson's Paradox
+		  id:: 621be4eb-a5fb-4803-8827-496782bad12c
+		- Survivorship Bias
+		  id:: 621be4eb-6b72-4d7e-814e-b726999f5fb8
+	- Types of causal inference
+	  collapsed:: true
+		- Effect
+		- Mechanism
+	- Rubin Model
+- Distract with keyboard proposal 😂
+  collapsed:: true
+	- I believe this could be revolutionary
+	- inspiration
+	  collapsed:: true
+		- RSI
+			- Kinesis keyboard
+			- 1500dhs
+		- Nandkumar sir
+			- i once asked him in CP lab
+			- > what is the point of VI editor?
+			- he said it is to avoid using the mouse
+	- Features
+	  collapsed:: true
+		- Custom Vim-Mode
+		- Left Alt as Ctrl Key
+		- Right Alt as Enter key as
+		- Wide Mode
+		- Alt-A
+		- Backspace (already implemented in existing layouts)
+- sir liked it, but I feel like I could do more

@@ -1,0 +1,2 @@
+- When you perform a statistical test a p-value helps you determine the significance of your results in relation to the null hypothesis.
+- A p-value, or probability value, is a number describing how likely it is that your data would have occurred by random chance (i.e. that the null hypothesis is true)

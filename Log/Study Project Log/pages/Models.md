@@ -1,0 +1,7 @@
+- # Types
+	- ## Statistical
+		- Understand the environment?
+	- ## Prediction
+		- Predict feature(s) of a new data point, based on trained data
+		- ## Forecasting
+			- wrt time

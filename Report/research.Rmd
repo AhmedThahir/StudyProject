@@ -1,0 +1,165 @@
+# Chapter 4: My Research
+
+The following are the insights I obtained when doing this study project, that were worth mentioning.
+
+## Causal Inference
+
+Correlation between Win% of a team and a team’s number of passes does **not** necessarily imply that passing more during games will lead to higher Win%. The same goes to other parameters such as possession percentage, passing accuracy, etc.
+
+The best approach to identify effective parameters would be to use causality tests, and hence obtain true causes of improved performance for a team/player. These effective parameters may vary from team to team, as each team differs in its ambitions and style of play.
+
+## Economics
+
+When analyzing the cost of buying a player, economic principles such as correcting values for inflation and opportunity cost analysis may be used. This will give a more holistic understanding of whether or not a player is worth buying.
+
+A point to note is that the inflation within the football transfer market has been much higher than the consumer sector. Players that would’ve cost around $€ 30M$ few years ago now cost around $€ 80M$. This is due to large transfers made by big clubs for players, such as *Neymar Jr.* in 2017 - costing Paris Saint-Germain around $€ 222M$. Moreover, there has been a sudden influx of investments in the footballing world, thereby resulting in clubs demanding higher transfer fees to sell their players.
+
+## Implementation
+
+A basic implementation was performed to learn using Python for statistical computing. The codes are available on the [GitHub repository](https://github.com/AhmedThahir/StudyProject#implementations) for this project.
+
+### English Premier League Predictor
+
+This implementation tries to predict the 2nd half win% of a team using data from the first half of the season. Using Pythagorean Expectation gave better results, as the correlation and $R^2$ value was higher. Referred to @FoundationsSportsAnalytics
+
+\begin{table}[H]
+  \begin{center}
+  \begin{tabular}{|c|c|c|}
+  \hline
+  \textbf{2nd Half Win\% predicted using 1st Half} & \textbf{$R^2$} & \textbf{Correlation} \\ \hline
+  Win\%                                            & 0.572          & 0.757                \\ \hline
+  Pythagorean Expectation                          & 0.633          & 0.796                \\ \hline
+  \end{tabular}
+  \end{center}
+  
+  \captionsetup{justification=centering}
+  \caption{Win \% Prediction}
+\end{table}
+
+\begin{figure}[H]
+  \begin{center}
+  \includegraphics[width=0.9\linewidth, height=6cm]{assets/win.png}
+  \end{center}
+  
+  \captionsetup{justification=centering}
+  \caption{Win \%}
+\end{figure}
+
+
+\begin{figure}[H]
+  \begin{center}
+  \includegraphics[width=0.9\linewidth, height=6cm]{assets/pythagorean.png}
+  \end{center}
+  
+  \captionsetup{justification=centering}
+  \caption{Pythagorean}
+\end{figure}
+
+### FIFA21 Player Rating
+
+This implementation aims at predicting players’ FIFA21 (an official football game) rating using their market value. An attempt at including the effect of inflation using CPI failed. Referred to @chazan-pantzalisSportsAnalyticsAlgorithms2020
+
+\begin{figure}[H]
+  \begin{center}
+  \includegraphics[width=0.9\linewidth, height=6cm]{assets/Overall vs Value.png}
+  \end{center}
+  
+  \captionsetup{justification=centering}
+  \caption{Rating vs Value}
+  \end{figure}
+
+
+\begin{figure}[H]
+  \begin{center}
+  \includegraphics[width=0.9\linewidth, height=6cm]{assets/DiffMeanOverall vs RelativeMeanValue.png}
+  \end{center}
+  
+  \captionsetup{justification=centering}
+  \caption{Corrected using CPI and Mean Value}
+\end{figure}
+
+#### Inferences
+
+\begin{table}
+  \begin{center}
+  \begin{tabular}{|c|c|c|}
+  \hline
+  \textbf{Method} & \textbf{Degree} & \textbf{$R^2$ Value} \\ \hline
+  \multicolumn{1}{|c|}{\multirow{4}{*}{Uncorrected}} & 1      & 0.5974      \\ \cline{2-3} 
+  \multicolumn{1}{|c|}{}                             & 2      & 0.7076      \\ \cline{2-3} 
+  \multicolumn{1}{|c|}{}                             & 3      & 0.7308      \\ \cline{2-3} 
+  \multicolumn{1}{|c|}{}                             & 4      & 0.6696      \\ \hline
+  \multirow{4}{*}{Corrected}                         & 1      & 0.6157      \\ \cline{2-3} 
+                                                     & 2      & 0.7204      \\ \cline{2-3} 
+                                                     & 3      & 0.7413      \\ \cline{2-3} 
+                                                     & 4      & 0.7476      \\ \hline
+  \end{tabular}
+  \end{center}
+  
+  \captionsetup{justification=centering}
+  \caption{Corrected using CPI and Mean Value}
+\end{table}
+
+- Only CPI is not enough to include the hyper inflation in football. CPI only shows an inflation of around 5%; hyper-inflation is much higher than that. Hence, getting the deviation from the average transfer value of each year may provide a better result.
+- Relationship is only satisfied for players with value $\ge 1M$. This **could** mean that there are many good under-valued players.
+- Corrected Degree 3&4 Regression gave the best-fit. However, due to over-fitting, it has a downward slope at the end; hence, it is to be rejected.
+
+### Granger Causality test of Cristiano Ronaldo's Market Value, Performance, and Age
+
+Hypothesis: Market Value is a function of previous year's performance and age.
+
+$$
+\begin{aligned}
+V &\propto P \\
+V & \propto \frac{1}{A} \\
+V &= a V_{t-1} + b x_{t-1} \\
+x &= \text{Goals} + \text{Assists} - \text{Age}
+\end{aligned}
+$$
+
+The base/'zero' value of every player must be their initial value, as every player starts off from a different initial value. This is not just restricted to talent/skill, due to factors such as nationality. Moreover, it helps accommodate the market value of a player who started off with a high value won't really go $< 1M$.
+
+\begin{figure}[H]
+  \begin{center}
+  \includegraphics[width=0.9\linewidth, height=6cm]{assets/Goal_Contributions vs Mean_Value_Diff_From_First.png}
+  \end{center}
+  
+  \captionsetup{justification=centering}
+  \caption{Granger Causality test of Goal Contributions as a function of Market Value}
+\end{figure}
+
+\begin{figure}[H]
+  \begin{center}
+  \includegraphics[width=0.9\linewidth, height=6cm]{assets/Mean_Value_Diff_From_First vs Goal_Contributions.png}
+  \end{center}
+  
+  \captionsetup{justification=centering}
+  \caption{Granger Causality test of Market Value as a function of Goal Contributions}
+\end{figure}
+
+\begin{figure}[H]
+  \begin{center}
+  \includegraphics[width=0.9\linewidth, height=6cm]{assets/Mean_Value_Diff_From_First vs Input.png}
+  \end{center}
+  
+  \captionsetup{justification=centering}
+  \caption{Granger Causality test of Market Value as a function of Goal Contributions and Age}
+\end{figure}
+
+
+#### Inferences
+
+\begin{table}[H]
+  \begin{center}
+  \begin{tabular}{|c|c|c|c|}
+  \hline
+  \textbf{Prediction}                             & \textbf{Predictor}             & \textbf{p-Value} & Significant \\ \hline
+  Goal\_Contributions                             & Mean\_Value\_Diff\_From\_First & 0.8667           & N          \\ \hline
+  \multirow{2}{*}{Mean\_Value\_Diff\_From\_First} & Goal\_Contributions            & 0.0491           & Y           \\ \cline{2-4} 
+                                                  & Goals\_Contributions - Age     & 0.0068           & Y           \\ \hline
+  \end{tabular}
+  \end{center}
+  
+  \captionsetup{justification=centering}
+  \caption{Granger Causality test of Cristiano Ronaldo's Market Value, Performance, and Age}
+\end{table}

@@ -1,0 +1,6 @@
+- The inference for aggregate data is different from individual group data
+- My question
+	- What is the correct inference?
+	- Is the medicine effective or not?
+- anova
+- chi-square

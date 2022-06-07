@@ -1,0 +1,35 @@
+# Chapter 1: Introduction
+
+## Authorization
+
+This report for ‘Study Project on Sports Analytics’ has been authorized by Dr. Raja Muthalagu, HOD of Computer Science at BITS Pilani Dubai Campus, on 4^th^ April 2022.
+
+## Historical Background
+
+Sports Analytics reached a global market size of $\$ 2.5B$ in 2021. It has become widely-used by teams all over the world, with an expected market size of $\$ 8.4 B$ by 2026. @SportsAnalyticsMarket Due to increasing competitiveness and limited resources, it has become essential to use data for optimization.
+
+## Objectives
+
+- Identify parameters/factors which produce effective outcomes in sports.
+- The goal is not prediction, but to find causes.
+
+## Scope
+
+- The report covers an outline of the research performed over the past few months for ‘Study Project on Sports Analytics’
+- The sport under this study is European Football.
+- Details not relevant to the topic in hand have been omitted
+
+## Limitations
+
+- As this is a Study Project, the report only focuses on the learned concepts
+- The report does not go into depth into all details, as the field is quite vast
+- My proposed methods may be improvised, once I learn all the required concepts
+- Implementation of my proposed methods will be worked in the upcoming months
+
+## Methods and Sources of Data Collection
+
+The main sources for research were online videos, articles, periodicals. Datasets were taken from open-access databases.
+
+## Report Review
+
+Including the introduction, the report is divided into five chapters. Chapter-2 contains the **literature review** which highlights the existing research in this field. Chapter-3 is the **discussion**. Chapter-4 contains **implementation** of the existing research, to get an idea of statistical computing. Chapter-5 contains the **conclusion**, which sums up the discussions, insights and outlines the major issues faced.

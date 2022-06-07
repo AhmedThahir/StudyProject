@@ -1,0 +1,96 @@
+---
+title             : "Compre Report for Study Project on 'Sports Analytics'"
+shorttitle        : "Sports Analytics"
+
+author: 
+  - name          : "Ahmed Thahir"
+    affiliation   : "1"
+    corresponding : yes    # Define only one corresponding author
+    # address       : "Postal address"
+    email         : "ahmedthahir2002@gmail.com"
+    role:         # Contributorship roles (e.g., CRediT, https://casrai.org/credit/)
+      - Writing
+      - Review
+      - Editing
+affiliation:
+  - id            : "1"
+    institution   : "BITS Pilani Dubai Campus"
+# authornote: |
+#  This report has been kept short and to-the-point, as this is only a Midsem report.
+
+abstract: |
+  Sports analytics is a field of study involved in understanding and improving sports performance of team(s) and player(s), using relevant data. It has been found that current research in Sports Analytics primarily focuses on prediction using statistical correlation, rather than making decisions using causation. My research proposes using causal inference to identify parameters that can improve a team/players’ performance. Moreover, the idea of using economics principles for financial decisions such as player transfers has also been introduced here. Furthermore, a basic use-case of Granger Causality has also been implemented.
+  
+keywords          : "Sports Analytics, Causal Analysis, Machine Learning, Python, Statistics, Economics, Regression, Granger Causality, Time Series Data, Cross-Sectional Data"
+# wordcount         : "`r stringr::str_count(rmarkdown::metadata$abstract, '\\S+')`"
+
+bibliography      : ["SportsStudy.bib"]
+csl: ieee.csl
+
+floatsintext      : yes
+
+figurelist        : no
+tablelist         : no
+lof               : yes
+lot               : yes
+
+footnotelist      : no
+linenumbers       : no
+mask              : no
+draft             : no
+#nocite: '@*'
+link-citations    : true
+# linkcolor       : blue
+
+documentclass     : "apa6"
+classoption       : "doc"
+
+header-includes   :
+   - \usepackage{float}
+     \usepackage{multirow}
+
+output            : papaja::apa6_pdf
+---
+
+```{r echo=FALSE}
+knitr::opts_chunk$set(echo = TRUE, fig.align="center")
+```
+
+\newpage
+\pagenumbering{roman}
+```{r child = 'acknowledgements.Rmd'}
+```
+
+
+\newpage
+\tableofcontents
+
+\newpage
+\listoffigures
+\listoftables
+
+\newpage
+\pagenumbering{arabic}
+```{r child = 'introduction.Rmd'}
+```
+
+\newpage
+```{r child = 'theory.Rmd'}
+```
+
+\newpage
+```{r child = 'literature.Rmd'}
+```
+
+\newpage
+```{r child = 'research.Rmd'}
+```
+
+\newpage
+```{r child = 'conclusion.Rmd'}
+```
+
+\newpage
+# Bibliography
+
+<div id="refs" custom-style="Bibliography"></div>

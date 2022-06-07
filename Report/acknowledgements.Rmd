@@ -1,0 +1,11 @@
+# Acknowledgements
+
+Firstly, I would like to thank Almighty God for giving me the strength, knowledge, ability and opportunity to take this project.
+
+Secondly, I would like to thank my family and friends, who have always supported me in this journey of finding my true passion.
+
+Thirdly, I would like to mention people who have inspired me. Mohammed Azharudin is the person who started it all - he sparked my interest in Computer Engineering. Dr. Sartaj Rasool, my Economics professor, opened my eyes to the beautiful world of economics. A big thank you to all the teachers who have helped me get to the stage I am at right now.
+
+Moreover, I would like to express my heartfelt gratitude to the Director of BITS Pilani, Dubai Campus, Prof. Srinivasan Madapusi, who has ushered a new light on our college.
+
+Lastly, I would like to thank my project supervisor, Dr. Raja Muthalagu, for providing me with the opportunity of performing this project. His guidance and encouragement over the past few months has helped me learn and to be innovative.

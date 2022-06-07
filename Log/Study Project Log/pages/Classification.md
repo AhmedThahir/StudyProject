@@ -1,0 +1,1 @@
+- Used to classify something as 0 or 1 - this or that

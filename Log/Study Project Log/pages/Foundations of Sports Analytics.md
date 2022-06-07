@@ -1,0 +1,3 @@
+- Coursera
+	- https://www.coursera.org/learn/foundations-sports-analytics
+- University of Michigan

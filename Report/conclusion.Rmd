@@ -1,0 +1,17 @@
+# Chapter 5: Conclusion
+
+There is clearly a lot of scope for sports analytics. Current research only focuses on prediction using correlation. However, this report highlighted the dangers of relying on statistical correlation. Causal inference is crucial for taking decisions that improve efficiency and avoid costly errors.
+
+## Concepts to Learn
+
+To progress with my research, the next steps would be to learn
+
+- Judea Pearl Causality Model
+- when to implement each prediction model
+- handling panel data
+
+## Possible Future Work
+
+- Forecasting performance of player in the next season
+- Determining if a player would be a good purchase
+- Determining if collection of players with large variety of experience would perform better than a collection with the same experience, using Gini-Coefficient.

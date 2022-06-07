@@ -1,0 +1,16 @@
+- # Specificity
+	- Model Specific
+		- works only for a particular model
+	- Model Agnostic
+		- works for all models
+- # Scope
+	- Local
+		- Importance of a feature based on a single data point
+	- Global
+		- Importance of a feature based on large number of datasets
+- # Type
+	- Model Explanation
+		- Accuracy is tested only with the input fed into the model
+	- Data Explanation
+		- Accuracy is tested only with the input and true output fed into the model
+		-

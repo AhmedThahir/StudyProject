@@ -1,0 +1,2 @@
+- Type of linear least squares method for estimating the unknown parameters in a linear regression model.
+- chooses the parameters of a linear function of a set of explanatory variables by the principle of least squares

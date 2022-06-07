@@ -1,0 +1,258 @@
+# Chapter 2: Theory
+
+This chapter highlights the major theoretical concepts that were come across during this study project. The references for this section are [@chazan-pantzalisSportsAnalyticsAlgorithms2020; @ModernDataAnalysis; @FoundationsSportsAnalytics].
+
+## Definitions
+
+This section highlights the major keywords and definitions relevant to this study.
+
+### Data Analytics
+
+Data analytics is a field of study, which aims at obtaining useful insights using relevant data. Upon taking actions, further data is collected to verify the initial insights.
+
+### Sports Analytics
+
+Sports analytics is a form of data analytics, involved in understanding and improving sports performance of team(s) and player(s).
+
+### Pythagorean Expectation
+
+Pythagorean expectation is a sports analytics formula, which tries to quantify a team’s performance. It was devised by Bill James.
+
+$$
+\text{Expected Win\%} \propto\frac{x^2}{x^2 + y^2}
+$$
+
+where
+
+- x = parameter scored
+- y = parameter conceded
+
+### Coefficient of Determination
+
+It shows how well data fits within the regression. It is represented as $R^2$. It has a range of $[0, 1]$. Higher the better.
+
+### Inflation
+
+It is defined as the rate at which prices of commodities increase.
+
+### CPI
+
+“The Consumer Price Index is a measure of the average change over time in the prices paid by urban consumers for a market basket of consumer goods and services”.[@ConsumerPriceIndex] It helps include the effect of inflation during analyses.
+
+### Opportunity Cost
+
+It is defined as the real cost associated with any action. It is what you are sacrificing by doing a particular action, rather than t.
+
+## Types of Data
+
+### Cross-Sectional
+
+Data that spans over various features, for the same time interval of interest.
+
+\begin{table}[H]
+  \begin{center}
+  \begin{tabular}{|c|c|c|}
+  \hline
+  \textbf{Year} & \textbf{Company} & \textbf{Revenue} \\ \hline
+  2015 & A       & 1K      \\ \hline
+  2015 & B       & 2K      \\ \hline
+  2015 & C       & 3K      \\ \hline
+  \end{tabular}
+  \end{center}
+  
+  \captionsetup{justification=centering}
+  \caption{Cross-Sectional Data}
+\end{table}
+
+### Time Series
+
+Data that spans over various time intervals, for the same feature of interest.
+
+\begin{table}[H]
+  \begin{center}
+  \begin{tabular}{|c|c|c|}
+  \hline
+  \textbf{Year} & \textbf{Company} & \textbf{Revenue} \\ \hline
+  2015 & A       & 1K      \\ \hline
+  2016 & A       & 2K      \\ \hline
+  2017 & A       & 3K      \\ \hline
+  \end{tabular}
+  \end{center}
+  
+  \captionsetup{justification=centering}
+  \caption{Time Series Data}
+\end{table}
+
+### Panel
+
+A combination of cross-sectional and time series data, spanning over various features and time intervals.
+
+\begin{table}[H]
+  \begin{center}
+  \begin{tabular}{|c|c|c|}
+  \hline
+  \textbf{Year} & \textbf{Company} & \textbf{Revenue} \\ \hline
+  2015 & A       & 1K      \\ \hline
+  2015 & B       & 3K      \\ \hline
+  2016 & A       & 2K      \\ \hline
+  2016 & B       & 3K      \\ \hline
+  2016 & C       & 1K      \\ \hline
+  2017 & B       & 3K      \\ \hline
+  2017 & C       & 3K      \\ \hline
+  \end{tabular}
+  \end{center}
+  
+  \captionsetup{justification=centering}
+  \caption{Panel Data}
+\end{table}
+
+## Statistics
+
+Contrary to common understanding, Correlation $\ne$ Causation. That is, just because 2 variables are correlated does not necessarily mean that one causes the other.
+
+There are 3 levels of statistical computing
+
+\begin{table}[H]
+  \begin{center}
+  \begin{tabular}{|c|c|c|}
+  \hline
+  \textbf{Level} & \textbf{Meaning} & \textbf{Purpose}                               \\ \hline
+  Correlation      & Statistical relationship between two variables        & Prediction                            \\ \hline
+  Causal Effect    & Relationship between a cause and its resulting effect & Making decisions on tested sample     \\ \hline
+  Causal Mechanism & Understanding the reason for causal effect            & Making decisions on interested sample \\ \hline
+  \end{tabular}
+  \end{center}
+  
+  \captionsetup{justification=centering}
+  \caption{Levels of Statistical Computing}
+\end{table}
+
+## Prediction Methods
+
+\begin{table}[H]
+  \begin{center}
+  \begin{tabular}{|c|c|}
+  \hline
+  \textbf{Type of Prediction} & \textbf{Range Interval} \\ \hline
+  Classification     & $[0,1]$        \\ \hline
+  Value              & Continuous     \\ \hline
+  \end{tabular}
+  \end{center}
+
+  \captionsetup{justification=centering}
+  \caption{Types of Prediction Models}
+\end{table}
+
+Consider $h(x)$ to be hypothesis function (prediction). The following are the most commonly-used prediction models.
+
+### Linear Regression
+
+A value prediction algorithm, which finds a best-fit straight line for the data.
+$$
+h(x) = a_0 + a_1 x
+$$
+
+### Polynomial Regression
+
+A value prediction algorithm, which finds a best-fit curve for the data.
+$$
+h(x) = a_0 + a_1 x + \dots + a_n x^n
+$$
+
+### Logistic Regression
+
+A classification algorithm, which finds a best-fit line to separate 2 categories of data. It incorporates a *Sigmoid Function* $g(z)$ that maps the output range as $[0, 1]$.
+$$
+\begin{aligned}
+h(x) &= g(a_0 + a_1 x) \\
+g(z) &= \frac1{ 1+e^{-z} }
+\end{aligned}
+$$
+
+### Decision Tree
+
+A classification and value prediction algorithm that contains a tree-like structure of nodes, with conditions in each of them. It is very useful for conditional problems.
+
+### Random Forests
+
+A classification and value prediction algorithm that contains a collection of decision trees. The final output is an averaged output of the trees.
+
+### Supported Vector Machines
+
+A classification algorithm that tries to find a *hyperplane*, that tries to maximize the margin between different categories of data.
+
+## Rubin’s Causal Model
+
+A model for causal inference, that depends on randomized testing to derive causality. It is widely used for deriving the effectiveness of treatments and drugs. Using a correct randomized experiment, the correlation obtained is equal to causal effect of the input.
+
+‘Treatment’ refers to applying the input (1), and ‘no treatment’ refers to not applying the input (0). Outcomes are the output with/without the treatment.
+
+The average treatment effect - the true causal effect of an input - is the difference between the average outcome with and without the treatment. Averaging improves accuracy, as the input is a random variable.
+
+However, as it depends on experimentation and the input can only be binary - 0/1, it is not always feasible. The preferred causal inference model is Judea-Pearl model which derives causality from observational data. 
+
+## Gini Coeffiecent
+
+Quantifies disparities/inequality in a distribution. It is mainly used for quantifying income disparities of various locations, communities, etc.
+
+$$
+\begin{aligned}
+G
+&=\frac{2}{n^{2} \bar{x}} \sum\limits_{i=1}^{n} i\left(x_{i}-\bar{x}\right) \\
+&=\frac{\sum\limits_{i=1}^{n}(2 i-n-1) x_{i}}{n \sum\limits_{i=1}^{n} x_{i}}
+\end{aligned}
+$$
+
+## Hypothesis Testing
+
+A statistical tool involving a null hypothesis and an alternate hypothesis to determine validity of a hypothesis.
+
+### p-Value
+
+It is the probability of the null hypothesis being true.
+
+### Statistical Significance
+
+A statistical test is said to be significant, if it has a p-Value of $p \le 0.05$.
+
+## Granger Causality
+
+A model to determine if one time series affects another. It helps determine direction of causality, when there is a 2-way correlation. The past values of $x$ are tested to determine if they have a statistically significant effect on the current value of $y$, taking past values of $x$ as regressors. However, it may **not always** give true causality.
+
+$$
+y_t = a + b y_{t-1} + c x_{t-1}
+$$
+
+- if $c \ne 0$ , then $x$ **granger causes** $y$
+- $t$ and $t-1$ are not necessarily years; it just denotes a time period
+
+## Implementation
+
+The following are few of the major tools that I will be using for my research.
+
+\begin{table}[H]
+  \begin{center}
+  \begin{tabular}{|c|c|}
+  \hline
+  \textbf{Purpose}                   & \textbf{Tool}    \\ \hline
+  Programming Language               & Python           \\ \hline
+  Dataframes Library                 & Pandas           \\ \hline
+  Plotting Library                   & Matplotlib       \\ \hline
+  Prediction Library                 & SciKit-Learn     \\ \hline
+  Math Library                       & Numpy            \\ \hline
+  Granger Causality Library          & Statsmodel       \\ \hline
+  Integrated Development Environment & Jupyter Notebook \\ \hline
+  \end{tabular}
+  \end{center}
+  
+  \captionsetup{justification=centering}
+  \caption{Tools used}
+\end{table}
+
+Python is the chosen programming language, as it is
+
+1. free
+2. open source
+3. easy to learn
+4. widely-used
+5. easy to collaborate
