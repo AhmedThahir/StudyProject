@@ -1,0 +1,2 @@
+- Study of utilization of scarce/limited resources
+- Deals heavily with optimization

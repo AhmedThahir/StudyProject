@@ -37,6 +37,9 @@
  {:block/name "between estimation ❌",
   :block/created-at 1654325462384,
   :block/updated-at 1654326065330}
+ {:block/name "business",
+  :block/created-at 1654972569319,
+  :block/updated-at 1655017944100}
  {:block/name "c",
   :block/created-at 1650637985110,
   :block/updated-at 1650637985110}
@@ -79,6 +82,9 @@
  {:block/name "dowhy",
   :block/created-at 1650637967542,
   :block/updated-at 1650637967542}
+ {:block/name "economics",
+  :block/created-at 1654881706299,
+  :block/updated-at 1654881760716}
  {:block/name "excel",
   :block/created-at 1650637968157,
   :block/updated-at 1650637968157}
@@ -190,9 +196,21 @@
  {:block/name "julia",
   :block/created-at 1650637966773,
   :block/updated-at 1650637966773}
+ {:block/name "jun 10th, 2022",
+  :block/created-at 1654872489386,
+  :block/updated-at 1654872540068}
+ {:block/name "jun 11th, 2022",
+  :block/created-at 1654891215644,
+  :block/updated-at 1654891215644}
+ {:block/name "jun 12th, 2022",
+  :block/created-at 1654977614578,
+  :block/updated-at 1654977614578}
  {:block/name "jun 7th, 2022",
   :block/created-at 1654614245808,
   :block/updated-at 1654614245808}
+ {:block/name "jun 9th, 2022",
+  :block/created-at 1654790984741,
+  :block/updated-at 1654790984741}
  {:block/name "jupyter notebook",
   :block/created-at 1654232360508,
   :block/updated-at 1654233660168}
@@ -241,6 +259,9 @@
  {:block/name "ols",
   :block/created-at 1650637967817,
   :block/updated-at 1650637967817}
+ {:block/name "optimization",
+  :block/created-at 1654881644427,
+  :block/updated-at 1654947453140}
  {:block/name "p-value",
   :block/created-at 1652934054748,
   :block/updated-at 1652934088995}
@@ -301,6 +322,9 @@
  {:block/name "reinforcementlearning",
   :block/created-at 1650637967508,
   :block/updated-at 1650637967508}
+ {:block/name "revenue optimization",
+  :block/created-at 1654881637282,
+  :block/updated-at 1654933799243}
  {:block/name "rubin causal model",
   :block/created-at 1650637968092,
   :block/updated-at 1650637968092}

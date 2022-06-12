@@ -1,0 +1,24 @@
+- # What
+- # Parts
+	- Value Creation
+	- Marketing
+	- Sales
+	- Value Delivery
+	- Finance
+- # Ideas
+	- ## Iron Law of Marketing
+		- The market doesn't care how smart you are
+		- It wants what it wants
+	- Prototyping and experimentation
+		- helps understand weaknesses
+		- Build a minimum economically-viable offer which is feasible to produce but also convincing for customers
+		- Improve it over time
+	- ## Cognitive Bias
+		- Absence Blindness
+			- We are not tuned to see what is not there
+	- ## Communication Overhead
+	- ## Systems
+		- View every operation as part of a system
+		- Aim for amplification(multiplied efficiency) more than accumulation (added efficiency)
+		- Allows to perform scenario planning
+		- Invest in resilience and backup solutions **before starting**
