@@ -1,4 +1,6 @@
-- Microsoft
+tags:: [[Causality]] [[Cross-Sectional Series]] 
+company:: Microsoft
+
 - ```
   pip install sympy
   pip install networkx

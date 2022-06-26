@@ -1,0 +1,8 @@
+- Measures
+	- Mean
+	- Median
+	- Mode
+- Mean vs Median
+	- Median is preferred for asymmetric data which is heavily skewed
+		- as it is possible that mean will point to a data point that doesn't even exist
+		- ![mean_vs_median.png](../assets/mean_vs_median_1655211033715_0.png){:height 361, :width 747}

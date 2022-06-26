@@ -1,3 +1,5 @@
+tags:: [[Python]] [[Exploratory Data Analysis]]
+
 - Try using [[numpy]] for operations whenever possible
 - # Importing
   collapsed:: true
@@ -30,7 +32,9 @@
 	  ```
 	- ((628335df-cf72-43d1-8989-7990834f12b4))
 - # Read/Write
+  collapsed:: true
 	- Single File
+	  collapsed:: true
 		- ```python
 		  dataset = pd.read_csv(file)
 		  ```
@@ -42,6 +46,7 @@
 		  )
 		  ```
 	- ## Multiple Files
+	  collapsed:: true
 		- ```python
 		  raw_formula_student = pd.DataFrame()
 		  for file in files:
@@ -51,6 +56,7 @@
 		          )
 		  ```
 - # Useful Functions
+  collapsed:: true
 	- ```python
 	  df.head()
 	  df.tail()
@@ -106,6 +112,16 @@
 	- ## Correlation Ranking
 	  collapsed:: true
 		- ```python
+		  (
+		      formula_student
+		      .iloc[:, 1:11]
+		      .corr("Overall Scores")
+		      .sort_values("Correlation", ascending=False)
+		      .iloc[1:, :] # remove the obvious overall scores = 1.00
+		  )
+		  ```
+		- ```python
+		  # this is unnecessarily complicated way i used before
 		  (
 		      formula_student
 		      .iloc[:, 1:11]
@@ -272,3 +288,60 @@
 	  df['Fee'] = df['Fee'].values.astype(float)
 	  # df['Fee'] = df['Fee'].astype(float)
 	  ```
+- # Lagged Value
+	- ```python
+	  nba["wpc_lag"] = (
+	    nba
+	    .groupby("Team")
+	    ["wpc"]
+	    .shift(1)
+	  )
+	  ```
+- # Performance Optimization
+  collapsed:: true
+	- ## Selectively-load columns
+	  collapsed:: true
+		- ```python
+		  df = pd.read_csv(
+		    "dataset.csv",
+		    usecols = [
+		      "First Name",
+		      "Last Name"
+		    ]
+		  )
+		  ```
+	- ## Selectively-load rows
+	  collapsed:: true
+		- ```python
+		  df = pd.read_csv(
+		    "dataset.csv",
+		    nrows = 10
+		  )
+		  ```
+	- Use correct `dtypes`
+		- ```python
+		  df = pd.read_csv(
+		    "dataset.csv",
+		    dtype = {
+		      "Age": "uint8",
+		      "Year": "uint16",
+		      "Time": "datetime"
+		      "Salary": "ufloat32",
+		      "Gender": "category",
+		      "Name": "string[pyarrow]"
+		    }
+		  )
+		  ```
+		- #+BEGIN_WARNING
+		  ~~`float16`~~
+		  there's no hardware support for float16 on a typical processor (at least outside the GPU). NumPy converts the float16 operands to float32, perform the scalar operation on the float32 values, then round the float32 result back to float16.
+		  #+END_WARNING
+	- Use `pyarrow` engine
+	  collapsed:: true
+		- ```python
+		  df = pd.read_csv(
+		    "dataset.csv",
+		    engine = "pyarrow"
+		  )
+		  ```
+	- Use [[Modin]]

@@ -87,7 +87,7 @@
   :block/updated-at 1650637985110}
  {:block/name "dowhy",
   :block/created-at 1650637967542,
-  :block/updated-at 1655743320016}
+  :block/updated-at 1650637967542}
  {:block/name "economics",
   :block/created-at 1654881706299,
   :block/updated-at 1654881760716}
@@ -102,7 +102,7 @@
   :block/updated-at 1654196481359}
  {:block/name "exploratory data analysis",
   :block/created-at 1655557426106,
-  :block/updated-at 1655744422068}
+  :block/updated-at 1655658431203}
  {:block/name "favorites",
   :block/created-at 1650637985109,
   :block/updated-at 1650637985109}
@@ -220,9 +220,6 @@
  {:block/name "jun 19th, 2022",
   :block/created-at 1655616373470,
   :block/updated-at 1655616373470}
- {:block/name "jun 20th, 2022",
-  :block/created-at 1655743254880,
-  :block/updated-at 1655744439746}
  {:block/name "jupyter notebook",
   :block/created-at 1654232360508,
   :block/updated-at 1654233660168}
@@ -306,7 +303,7 @@
   :block/updated-at 1655545478937}
  {:block/name "plotly.py",
   :block/created-at 1655543174612,
-  :block/updated-at 1655744566122}
+  :block/updated-at 1655543637667}
  {:block/name "poisson distribution",
   :block/created-at 1650637967778,
   :block/updated-at 1654326246809}
@@ -319,9 +316,6 @@
  {:block/name "programminglanguage",
   :block/created-at 1655543148658,
   :block/updated-at 1655543148658}
- {:block/name "prophet",
-  :block/created-at 1655743333484,
-  :block/updated-at 1655743810355}
  {:block/name "proposal",
   :block/created-at 1650637967039,
   :block/updated-at 1654614294528}
