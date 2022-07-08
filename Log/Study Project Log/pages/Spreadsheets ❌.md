@@ -1,12 +1,15 @@
 alias:: Sheet, Excel, Google Sheets, GSheets
+tags:: [[Dashboards]]
 
 - # Not Recommended
+  collapsed:: true
   Programmatic Analysis is preferred, as
 	- Faster
 	- data and analysis are separate
 	- automate analysis
 	- reproducibility
 	- Python is open-source, hence the analysis is open-source
+	  collapsed:: true
 		- Instead of paying for excel, you could use the money elsewhere
 - # Formatting
   collapsed:: true
@@ -73,6 +76,10 @@ alias:: Sheet, Excel, Google Sheets, GSheets
 			- ```mysql
 			  =SUMPRODUCT(LEN(E3)-LEN(SUBSTITUTE(E3,CHAR(ROW(INDIRECT("97:122"))),"")))
 			  ```
+	- ## Import Data from another sheet
+		- ```mysql
+		  =ImportRange("1WsMosP6WaifrDsTaMuZUlEP8MSYP1nfTyKh9x7q4ads","Student_Details!B2:B200")
+		  ```
 - # Functionality
   collapsed:: true
 	- Dropdown
@@ -191,3 +198,9 @@ alias:: Sheet, Excel, Google Sheets, GSheets
 		  collapsed:: true
 			- Description - Update Only
 		- Hide the column
+- # Dashboards
+  collapsed:: true
+	- Even Google Sheets can create dashboard
+	  collapsed:: true
+		- File > Share > Publish to Web
+		- Select what to include

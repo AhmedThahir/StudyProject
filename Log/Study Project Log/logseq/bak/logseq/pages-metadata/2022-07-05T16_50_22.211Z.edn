@@ -1,7 +1,4 @@
-[{:block/name "62c88d7d-8476-4272-8422-4007e64ef164",
-  :block/created-at 1657312654541,
-  :block/updated-at 1657312654541}
- {:block/name "a",
+[{:block/name "a",
   :block/created-at 1650637985110,
   :block/updated-at 1650637985110}
  {:block/name "animation",
@@ -49,9 +46,6 @@
  {:block/name "canceled",
   :block/created-at 1650637966777,
   :block/updated-at 1650637966777}
- {:block/name "cancelled",
-  :block/created-at 1657312411232,
-  :block/updated-at 1657312411232}
  {:block/name "card",
   :block/created-at 1650637985109,
   :block/updated-at 1650637985109}
@@ -76,9 +70,6 @@
  {:block/name "cross-sectional series",
   :block/created-at 1650637967566,
   :block/updated-at 1654328679690}
- {:block/name "dash",
-  :block/created-at 1657310600223,
-  :block/updated-at 1657310630685}
  {:block/name "dashboards",
   :block/created-at 1650637967583,
   :block/updated-at 1656761977943}
@@ -184,9 +175,6 @@
  {:block/name "gsheets",
   :block/created-at 1653072430808,
   :block/updated-at 1653072430808}
- {:block/name "happiness",
-  :block/created-at 1657268599753,
-  :block/updated-at 1657268599753}
  {:block/name "hyperplane",
   :block/created-at 1650637968105,
   :block/updated-at 1650637968105}
@@ -223,21 +211,12 @@
  {:block/name "judea pearl model",
   :block/created-at 1650637967728,
   :block/updated-at 1650637967728}
- {:block/name "jul 2nd, 2022",
-  :block/created-at 1656753461615,
-  :block/updated-at 1656753461615}
  {:block/name "jul 3rd, 2022",
   :block/created-at 1656993929941,
   :block/updated-at 1656993929941}
  {:block/name "jul 5th, 2022",
   :block/created-at 1656993918516,
   :block/updated-at 1656993918516}
- {:block/name "jul 8th, 2022",
-  :block/created-at 1657268350413,
-  :block/updated-at 1657269113231}
- {:block/name "jul 9th, 2022",
-  :block/created-at 1657310589381,
-  :block/updated-at 1657313297087}
  {:block/name "julia",
   :block/created-at 1650637966773,
   :block/updated-at 1650637966773}
@@ -247,12 +226,6 @@
  {:block/name "jun 17th, 2022",
   :block/created-at 1655465307344,
   :block/updated-at 1655481536193}
- {:block/name "jun 18th, 2022",
-  :block/created-at 1655533084549,
-  :block/updated-at 1655533084549}
- {:block/name "jun 19th, 2022",
-  :block/created-at 1655616373470,
-  :block/updated-at 1655616373470}
  {:block/name "jun 20th, 2022",
   :block/created-at 1655743254880,
   :block/updated-at 1655744439746}
@@ -286,9 +259,21 @@
  {:block/name "matplotlib",
   :block/created-at 1652847824042,
   :block/updated-at 1654376730539}
+ {:block/name "may 17th, 2022",
+  :block/created-at 1652766135736,
+  :block/updated-at 1652766135736}
+ {:block/name "may 18th, 2022",
+  :block/created-at 1652845887201,
+  :block/updated-at 1652845887201}
  {:block/name "may 19th, 2022",
   :block/created-at 1652933002311,
   :block/updated-at 1652933691024}
+ {:block/name "may 20th, 2022",
+  :block/created-at 1653020704164,
+  :block/updated-at 1653020704164}
+ {:block/name "may 26th, 2022",
+  :block/created-at 1653536704376,
+  :block/updated-at 1653536704376}
  {:block/name "missing data",
   :block/created-at 1655210758267,
   :block/updated-at 1655210758267}
@@ -325,6 +310,9 @@
  {:block/name "panel data",
   :block/created-at 1650637967784,
   :block/updated-at 1654329403996}
+ {:block/name "panel regression",
+  :block/created-at 1650637967787,
+  :block/updated-at 1650637967787}
  {:block/name "patternrecognition",
   :block/created-at 1650637967509,
   :block/updated-at 1650637967509}
@@ -339,7 +327,7 @@
   :block/updated-at 1655545478937}
  {:block/name "plotly.py",
   :block/created-at 1655543174612,
-  :block/updated-at 1657308365021}
+  :block/updated-at 1656761903771}
  {:block/name "poisson distribution",
   :block/created-at 1650637967778,
   :block/updated-at 1654326246809}
@@ -354,7 +342,7 @@
   :block/updated-at 1655543148658}
  {:block/name "prophet",
   :block/created-at 1655743333484,
-  :block/updated-at 1657307394733}
+  :block/updated-at 1655743810355}
  {:block/name "proposal",
   :block/created-at 1650637967039,
   :block/updated-at 1654614294528}

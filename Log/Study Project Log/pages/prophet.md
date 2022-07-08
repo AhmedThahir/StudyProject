@@ -3,7 +3,30 @@ company:: Facebook
 
 - > Prophet is a procedure for forecasting time series data based on an additive model where non-linear trends are fit with yearly, weekly, and daily seasonality, plus holiday effects. It works best with time series that have strong seasonal effects and several seasons of historical data. Prophet is robust to missing data and shifts in the trend, and typically handles outliers well.
 - [Good Tutorial](https://youtu.be/KvLG1uTC-KU)
+- # Theory
+	- $$
+	  \begin{aligned}
+	  y(t) 
+	  & = \color{cyan} \underset{
+	  	\text{L1-Regularized Trend Shifts}
+	  	}{
+	  	\text{piecewise\_trend}(t)
+	  	} \\
+	  & + \color{hotpink} \underset{
+	  	\text{Fourier Series}
+	    }{
+	    \text{seasonality}(t)
+	    } \\
+	  & + \color{orange} \underset{
+	  	\text{Dummy Variables}
+	  	}{
+	  	\text{holiday\_effects}(t)	
+	  	} \\
+	  & + \text{i.i.d noise}
+	  \end{aligned}
+	  $$
 - # Step 0 - Import Packages
+  collapsed:: true
 	- ```python
 	  # Install pystan with pip before using pip to install prophet
 	  # pystan>=3.0 is currently not supported
@@ -14,6 +37,7 @@ company:: Facebook
 	  from prophet import Prophet
 	  ```
 - # Step 1 - Import Data
+  collapsed:: true
 	- ```python
 	  df = pd.read_csv('dataset.csv')
 	  
@@ -29,11 +53,13 @@ company:: Facebook
 	  df.head()
 	  ```
 - # Step 2 - Train Model
+  collapsed:: true
 	- ```python
 	  m = Prophet(interval_width=0.95, daily_seasonality=True)
 	  model = m.fit(df)
 	  ```
 - # Step 3 - Forecast
+  collapsed:: true
 	- ```python
 	  future = m.make_future_dataframe(periods=100,freq='D')
 	  forecast = m.predict(future)
@@ -45,3 +71,5 @@ company:: Facebook
 	  plt2 = m.plot_components(forecast)
 	  ```
 	-
+- Step 4 - Interactive Visualization with [[plotly.py]]
+	- [fbprophet-and-plotly-example.ipynb](../assets/fbprophet-and-plotly-example_1657307394127_0.ipynb)
