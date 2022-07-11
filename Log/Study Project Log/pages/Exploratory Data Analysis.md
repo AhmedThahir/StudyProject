@@ -4,14 +4,11 @@ tags:: [[Pandas]]
 - ![EDA_Medium_Article.pdf](../assets/EDA_Medium_Article_1655744421474_0.pdf)
 - # Step 0: Imports and Reading Data
   collapsed:: true
-	- ```python
-	  import pandas as pd
-	  import numpy as np
-	  import matplotlib.pylab as plt
-	  import seaborn as sns
-	  plt.style.use('ggplot')
-	  pd.set_option('max_columns', 200)
-	  ```
+	- ((62cac844-e087-4d20-92b6-9521d2aecfcb))
+	- ((62c96ceb-dcf0-4f9a-8c26-d622a1cd9c18))
+	- ((62c96cea-3de8-4027-b4fe-be20612e3204))
+	- ((62c96cea-9db2-4c4b-b647-dba8aefef663))
+	- ((62cace5f-7923-4c60-82f0-7a87a4e67c1c))
 	- ```python
 	  df = pd.read_csv('../input/rollercoaster-database/coaster_db.csv')
 	  ```

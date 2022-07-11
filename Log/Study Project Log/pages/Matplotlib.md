@@ -1,5 +1,8 @@
+tags:: [[Python]] [[Library]] [[Data Visualization]]
+
 - # Initialization
-	- ```python
+	- id:: 62c96cea-3de8-4027-b4fe-be20612e3204
+	  ```python
 	  import matplotlib.pyplot as plt
 	  %config InlineBackend.figure_formats = ['svg'] # makes everything svg by default
 	  %matplotlib inline

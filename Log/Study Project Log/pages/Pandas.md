@@ -1,10 +1,12 @@
-tags:: [[Python]] [[Exploratory Data Analysis]]
+tags:: [[Python]] [[Exploratory Data Analysis]] [[Library]]
 
 - Try using [[numpy]] for operations whenever possible
 - # Importing
   collapsed:: true
-	- ```python
+	- id:: 62c96ceb-dcf0-4f9a-8c26-d622a1cd9c18
+	  ```python
 	  import pandas as pd
+	  pd.set_option('max_columns', 200)
 	  ```
 - # Creating Dataframe
   collapsed:: true
@@ -15,8 +17,7 @@ tags:: [[Python]] [[Exploratory Data Analysis]]
 		  ```
 	- ## Manual
 	  collapsed:: true
-		- ```python
-		  perf = pd.DataFrame(
+		- perf = pd.DataFrame(
 		      columns = ['Season', 'Appearances', 'Goals', 'Assists'],
 		      data = [
 		          ["2021/2022", 39, 24, 3],
@@ -24,7 +25,6 @@ tags:: [[Python]] [[Exploratory Data Analysis]]
 		          ["2019/2020", 46, 37, 7]
 		      ]
 		  )
-		  ```
 - # Editing Values
   collapsed:: true
 	- ```python
@@ -282,6 +282,13 @@ tags:: [[Python]] [[Exploratory Data Analysis]]
 	    title="Features over Time"
 	  )
 	  ```
+	- ## Plotting Backend
+		- ```python
+		  pd.options.plotting.backend = 'matplotlib'
+		  
+		  pd.options.plotting.backend = 'plotly'
+		  df.plot(backend='plotly')
+		  ```
 - # Type Casting
   collapsed:: true
 	- ```python
@@ -289,6 +296,7 @@ tags:: [[Python]] [[Exploratory Data Analysis]]
 	  # df['Fee'] = df['Fee'].astype(float)
 	  ```
 - # Lagged Value
+  collapsed:: true
 	- ```python
 	  nba["wpc_lag"] = (
 	    nba
@@ -319,6 +327,7 @@ tags:: [[Python]] [[Exploratory Data Analysis]]
 		  )
 		  ```
 	- Use correct `dtypes`
+	  collapsed:: true
 		- ```python
 		  df = pd.read_csv(
 		    "dataset.csv",

@@ -1,4 +1,4 @@
-tags:: #Visualization #Text
+tags:: [[Data Visualization]] [[Text]] [[Python]]
 
 - Visualization of frequency of words
 - # Implementation

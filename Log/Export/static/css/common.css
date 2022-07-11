@@ -808,6 +808,14 @@ li p:last-child,
   border-right-color: var(--ls-border-color, #ccc);
 }
 
+i.ti {
+  /*
+  compensates the wrong top spacing in the iconfont.
+  See https://github.com/tabler/tabler-icons/issues/118/
+  */
+  transform: translateY(-1px);
+}
+
 .dnd-separator {
   border-bottom: 3px solid #ccc;
 }
@@ -870,7 +878,7 @@ h1.title {
 
 .block-highlight,
 .content .selected {
-  transition: background-color 0.15s;
+  transition: background-color 0.2s cubic-bezier(0, 1, 0, 1);
   background-color: var(--ls-block-highlight-color);
   padding: -1px;
 }

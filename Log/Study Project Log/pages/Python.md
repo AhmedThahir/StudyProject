@@ -80,12 +80,13 @@ tags:: programmingLanguage
 	- ## Multi-Threading
 		- ```python
 		  with multi.ThreadPoolExecutor() as executor:
-		      executor.map(read_file, files)
+		      executor.map(read_file, files) # (function, list)
 		  ```
 	- ## Multi-Processing
+		- Doesn't work by default in [[Jupyter Notebook]]
 		- ```python
 		  with multi.ProcessPoolExecutor() as executor:
-		      executor.map(read_file, files)
+		      executor.map(read_file, files) # (function, list)
 		  ```
 - # IDK
 	- ```python

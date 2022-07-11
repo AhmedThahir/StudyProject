@@ -4,6 +4,10 @@ tags:: [[Python]]
   collapsed:: true
 	- speeds up operations
 	- converting `Pandas` series into `numpy` array
+- id:: 62cac844-e087-4d20-92b6-9521d2aecfcb
+  ```python
+  import numpy as np
+  ```
 - # Find-Replace
   collapsed:: true
 	- `if`

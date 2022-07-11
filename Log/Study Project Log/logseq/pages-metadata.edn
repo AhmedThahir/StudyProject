@@ -1,7 +1,4 @@
-[{:block/name "62c88d7d-8476-4272-8422-4007e64ef164",
-  :block/created-at 1657312654541,
-  :block/updated-at 1657312654541}
- {:block/name "a",
+[{:block/name "a",
   :block/created-at 1650637985110,
   :block/updated-at 1650637985110}
  {:block/name "animation",
@@ -57,7 +54,7 @@
   :block/updated-at 1650637985109}
  {:block/name "causality",
   :block/created-at 1650637967543,
-  :block/updated-at 1650637967543}
+  :block/updated-at 1657457231439}
  {:block/name "central tendency",
   :block/created-at 1655210676726,
   :block/updated-at 1655211076373}
@@ -78,16 +75,22 @@
   :block/updated-at 1654328679690}
  {:block/name "dash",
   :block/created-at 1657310600223,
-  :block/updated-at 1657310630685}
+  :block/updated-at 1657459046824}
  {:block/name "dashboards",
   :block/created-at 1650637967583,
-  :block/updated-at 1656761977943}
+  :block/updated-at 1657544505672}
  {:block/name "data imputation",
   :block/created-at 1655210751467,
   :block/updated-at 1655210833647}
  {:block/name "data type",
   :block/created-at 1654326527509,
   :block/updated-at 1654326527509}
+ {:block/name "data visualization",
+  :block/created-at 1652504693203,
+  :block/updated-at 1657566736779}
+ {:block/name "datashader",
+  :block/created-at 1657563264594,
+  :block/updated-at 1657569936313}
  {:block/name "decision trees",
   :block/created-at 1650637967593,
   :block/updated-at 1654326264701}
@@ -99,7 +102,7 @@
   :block/updated-at 1650637985110}
  {:block/name "dowhy",
   :block/created-at 1650637967542,
-  :block/updated-at 1655743320016}
+  :block/updated-at 1657456903331}
  {:block/name "economics",
   :block/created-at 1654881706299,
   :block/updated-at 1654881760716}
@@ -114,7 +117,10 @@
   :block/updated-at 1654196481359}
  {:block/name "exploratory data analysis",
   :block/created-at 1655557426106,
-  :block/updated-at 1655744422068}
+  :block/updated-at 1657458305641}
+ {:block/name "facebook prophet",
+  :block/created-at 1655743333484,
+  :block/updated-at 1657553775398}
  {:block/name "favorites",
   :block/created-at 1650637985109,
   :block/updated-at 1650637985109}
@@ -223,21 +229,21 @@
  {:block/name "judea pearl model",
   :block/created-at 1650637967728,
   :block/updated-at 1650637967728}
- {:block/name "jul 2nd, 2022",
-  :block/created-at 1656753461615,
-  :block/updated-at 1656753461615}
+ {:block/name "jul 11th, 2022",
+  :block/created-at 1657524187553,
+  :block/updated-at 1657524187553}
+ {:block/name "jul 12th, 2022",
+  :block/created-at 1657569603150,
+  :block/updated-at 1657569603150}
  {:block/name "jul 3rd, 2022",
   :block/created-at 1656993929941,
   :block/updated-at 1656993929941}
- {:block/name "jul 5th, 2022",
-  :block/created-at 1656993918516,
-  :block/updated-at 1656993918516}
  {:block/name "jul 8th, 2022",
   :block/created-at 1657268350413,
   :block/updated-at 1657269113231}
  {:block/name "jul 9th, 2022",
   :block/created-at 1657310589381,
-  :block/updated-at 1657313297087}
+  :block/updated-at 1657368533800}
  {:block/name "julia",
   :block/created-at 1650637966773,
   :block/updated-at 1650637966773}
@@ -247,27 +253,24 @@
  {:block/name "jun 17th, 2022",
   :block/created-at 1655465307344,
   :block/updated-at 1655481536193}
- {:block/name "jun 18th, 2022",
-  :block/created-at 1655533084549,
-  :block/updated-at 1655533084549}
- {:block/name "jun 19th, 2022",
-  :block/created-at 1655616373470,
-  :block/updated-at 1655616373470}
  {:block/name "jun 20th, 2022",
   :block/created-at 1655743254880,
   :block/updated-at 1655744439746}
  {:block/name "jupyter notebook",
   :block/created-at 1654232360508,
-  :block/updated-at 1654233660168}
+  :block/updated-at 1657449682821}
  {:block/name "later",
   :block/created-at 1650637985110,
   :block/updated-at 1650637985110}
+ {:block/name "library",
+  :block/created-at 1657456794786,
+  :block/updated-at 1657456794786}
  {:block/name "logistic regression",
   :block/created-at 1650637967756,
   :block/updated-at 1654326259209}
  {:block/name "logseq",
   :block/created-at 1655466184684,
-  :block/updated-at 1655466537332}
+  :block/updated-at 1657457286230}
  {:block/name "longitudinal",
   :block/created-at 1654329403992,
   :block/updated-at 1654329403992}
@@ -285,7 +288,7 @@
   :block/updated-at 1650637967344}
  {:block/name "matplotlib",
   :block/created-at 1652847824042,
-  :block/updated-at 1654376730539}
+  :block/updated-at 1657457314527}
  {:block/name "may 19th, 2022",
   :block/created-at 1652933002311,
   :block/updated-at 1652933691024}
@@ -300,13 +303,16 @@
   :block/updated-at 1655538148768}
  {:block/name "network graphs",
   :block/created-at 1654521424185,
-  :block/updated-at 1654527217888}
+  :block/updated-at 1657458925956}
+ {:block/name "networks",
+  :block/created-at 1657458925951,
+  :block/updated-at 1657458925951}
  {:block/name "now",
   :block/created-at 1650637985110,
   :block/updated-at 1650637985110}
  {:block/name "numpy",
   :block/created-at 1652797697422,
-  :block/updated-at 1655537579107}
+  :block/updated-at 1657456715797}
  {:block/name "octave",
   :block/created-at 1650637967827,
   :block/updated-at 1650637967827}
@@ -321,7 +327,7 @@
   :block/updated-at 1652934088995}
  {:block/name "pandas",
   :block/created-at 1650637967839,
-  :block/updated-at 1655631087535}
+  :block/updated-at 1657569603252}
  {:block/name "panel data",
   :block/created-at 1650637967784,
   :block/updated-at 1654329403996}
@@ -332,14 +338,14 @@
   :block/created-at 1654180608943,
   :block/updated-at 1654181582675}
  {:block/name "plotly",
-  :block/created-at 1655543078883,
-  :block/updated-at 1655543084339}
+  :block/created-at 1657464055996,
+  :block/updated-at 1657570013233}
+ {:block/name "plotly resampler",
+  :block/created-at 1657463877875,
+  :block/updated-at 1657528201503}
  {:block/name "plotly.js",
   :block/created-at 1655543173627,
   :block/updated-at 1655545478937}
- {:block/name "plotly.py",
-  :block/created-at 1655543174612,
-  :block/updated-at 1657308365021}
  {:block/name "poisson distribution",
   :block/created-at 1650637967778,
   :block/updated-at 1654326246809}
@@ -352,15 +358,12 @@
  {:block/name "programminglanguage",
   :block/created-at 1655543148658,
   :block/updated-at 1655543148658}
- {:block/name "prophet",
-  :block/created-at 1655743333484,
-  :block/updated-at 1657307394733}
  {:block/name "proposal",
   :block/created-at 1650637967039,
-  :block/updated-at 1654614294528}
+  :block/updated-at 1657366935464}
  {:block/name "python",
   :block/created-at 1650637967928,
-  :block/updated-at 1654375127096}
+  :block/updated-at 1657453228801}
  {:block/name "python date formats",
   :block/created-at 1652799313269,
   :block/updated-at 1652799530400}
@@ -408,10 +411,13 @@
   :block/updated-at 1650637967933}
  {:block/name "sci-kit learn",
   :block/created-at 1654350947628,
-  :block/updated-at 1654350956454}
+  :block/updated-at 1657456814755}
  {:block/name "scikit",
   :block/created-at 1654350956451,
   :block/updated-at 1654350956451}
+ {:block/name "seaborn",
+  :block/created-at 1657456263949,
+  :block/updated-at 1657458891945}
  {:block/name "sheet",
   :block/created-at 1650637968157,
   :block/updated-at 1650637968157}
@@ -425,8 +431,8 @@
   :block/created-at 1656844248457,
   :block/updated-at 1656844648777}
  {:block/name "study_project_proposal_1644868220897_0",
-  :block/created-at 1655546780628,
-  :block/updated-at 1655546780628}
+  :block/created-at 1657563262794,
+  :block/updated-at 1657563262794}
  {:block/name "svm",
   :block/created-at 1650637967781,
   :block/updated-at 1654326284794}
@@ -438,7 +444,7 @@
   :block/updated-at 1652504693203}
  {:block/name "tfcausalimpact",
   :block/created-at 1650637967543,
-  :block/updated-at 1650637967543}
+  :block/updated-at 1657456929435}
  {:block/name "thahir",
   :block/created-at 1650637968175,
   :block/updated-at 1650637968175}
@@ -448,9 +454,6 @@
  {:block/name "todo",
   :block/created-at 1650637985110,
   :block/updated-at 1650637985110}
- {:block/name "visualization",
-  :block/created-at 1652504693203,
-  :block/updated-at 1652504693203}
  {:block/name "wait",
   :block/created-at 1650637985110,
   :block/updated-at 1650637985110}
@@ -462,4 +465,4 @@
   :block/updated-at 1654327657111}
  {:block/name "word cloud",
   :block/created-at 1652504680531, 
-  :block/updated-at 1652507246540}]
+  :block/updated-at 1657458944253}]
